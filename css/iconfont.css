@@ -1,0 +1,29 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1587438039456'); /* IE9 */
+  src: url('iconfont.eot?t=1587438039456#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQoAAsAAAAACJAAAAPaAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDHAqESIN0ATYCJAMQCwoABCAFhG0HShtoBxFVnNPIfiQYN5b/o9jyLlVCE+mbfPA37YUEmsFclHYnrmzn4l+bf5+ItwECCNBaNR2lG3VCpcmMJ57mP8l+0u/n/mjjcRqlEBKE4497x3+dBzafZbmMtXyMQVEXYBxQoGNvDLhACogD6TE20O5nMhAAMtwRCpKbX1oLDgajFgFAhg0e2Bs8pQWriSXgIJBKOjKQ5RDBhQXCYwDL/PeTN4gmHBAgUhgNKwfk9UPms4A3u6hm1HRz9Xg8nhkA1w2gAEIBMIAMKrX2AQ3doaCQle8wxAPg4BCAZwHPw97sMhqRvxcpN6Xo+8MTACLBkJoiEaumODGezQAKPA9jAAHe7NJCQIxV5wAUACcA/ATC9glEMAjMwlR2ExUl0tS2r0JkFYq+YZ2DsmYNoBCVNj+tbXlW1/ZC3/q8Vlm0BkgncnjdalleaO8PzQ80XbiWEN/V7nE2OujXLbKrW6ONNJxpKRi6o7a5vbatTd/QOmztQX95czNaWup6ZFheYtXexPPNZRdaXAvMtl2cJxI7iF2IKZQ1dnZrnKLqars45HOnzvyAesPmZLVy9WrbhWvtVXXvpoC++w7cHDf1wNSp2W9UXNDN67W71zrdRfXV+eO2LaKLi9hisly2I4z/3NB/xXyBbmB2TMyny1+9KdfVWLRLB/g63QGp0yLXcr1VnPFTrnnu/09xtuCvh5n8buAqjeq0L/UeOsbBs3RUzPyHpDHFfViTLZlH7L9aGcLI7CVPxkU11cT3uzNuGqnAkhTte+4Bk/6xknM1mWw4N6RvTbiUlqvPjYz0hS+vrLs8aG6M7+TK8+ooN+dY1adS8IUn1TqYpydDUoenpxCP5VVfs2hDzswej3L3LleKg0OWTffPt1/49op9P/QCABhj6c+5r+9tmR+iIX//M6jq5jOsp0XqN64wAEDn7cY2zDDGMlAN+IW81rx/zWuZw1SBoWNMFtpcLZpJlVjCSxPLpgH4w37A2m8MuV3raIDg7GIQ6LgBxfkijAgFkSIWJFwGyEJk3RU2xByZCYBgLwDC0hsE5q4BZemDMOILInt/kFg2B5mazYAK/5pdjsAoSsqf1BQ8WsuguyD2gOraG0kKfPIF4hsbxUGU9WUYIWM08bcqUbVkhQfaw3ToeyYn3KLQoFZ1aRjasjMFBQ+TnRwCDAUlknsijQIbWbew2uVefwCVq54hNVkV5gsQXlM6iQWiFkgmHVtlXcs23k0loZRFLMEGZA9m6E03I668XAsKKlD3cDqpkOSzbaXB/PLhCRcByIxlWQKhhBER/DzAmQrbiSylE3i/DTvOUFRihskEAAA=') format('woff2'),
+  url('iconfont.woff?t=1587438039456') format('woff'),
+  url('iconfont.ttf?t=1587438039456') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1587438039456#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-homepage:before {
+  content: "\e62d";
+}
+
+.icon-wordpress:before {
+  content: "\eba3";
+}
+
+.icon--telegram:before {
+  content: "\e527";
+}
+
