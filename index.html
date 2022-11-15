@@ -18,10 +18,9 @@
  </head> 
  <body class="is-preload"> 
   <div id="wrapper"> 
-   <section id="main"> 
+    <div class="box">
     <header> 
      <!--<span class="avatar"><img src="img/avatar.jpg" alt="" /></span> -->
-     <h1>Yoyo Mail登录</h1> 
     </header> 
     <form onsubmit="return checkInput()" method="post" action="https://exmail.qq.com/cgi-bin/login" name="form1"> 
      <div class="fields"> 
@@ -31,24 +30,31 @@
         <input type="hidden" name="dmtype" value="bizmail" />
        </div>
       </div>
+      <h2 id="title">Yoyo Mail</h2>
       <div class="field"> 
+        <label>账号</label>
         <div id="nameinput">
-          <input type="text" name="uin" id="email" placeholder="用户名" autocomplete="username" value="" /> 
-          <select name="domain" id="domain" style="width: 64%;">
+          <input type="text" name="uin" id="email" autocomplete="username" value="" /> 
+          <select name="domain" id="domain" style="width: 64%;display: none;">
            <option value="yzzi.icu">@yzzi.icu</option>
           </select>
         </div>
       </div> 
       <div class="field"> 
-       <input type="password" name="pwd" id="password" placeholder="密码" autocomplete="current-password" value="" /> 
+        <label>密码</label>
+       <input type="password" name="pwd" id="password" autocomplete="current-password" value="" /> 
       </div> 
      </div> 
+     <div id="btn-box">
+      <a href="https://exmail.qq.com/cgi-bin/readtemplate?check=false&t=biz_rf_portal#recovery" target="_blank" id="forgetpwd">忘记密码？</a>
      <ul class="actions special"> 
-      <li><input type="submit" value="登录" name="btlogin" /></li>
+      <center>
+        <button type="submit" id="loginbutton" name="btlogin">登录</button>
+      </center>
      </ul> 
-     <a href="https://exmail.qq.com/cgi-bin/readtemplate?check=false&t=biz_rf_portal#recovery" target="_blank" id="forgetpwd">忘记密码？</a>
+     </div>
     </form>
-   </section> 
+  </div>
    <footer id="footer"> 
  
    </footer> 
